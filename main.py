@@ -12,8 +12,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from datetime import datetime
 
 # Setup koneksi serial ke ESP32
-API_URL = "http://192.168.0.104:8000/api/attendance"
-SERIAL_PORT = 'COM3'
+API_URL = "http://192.168.132.29:8000/api/attendance"
+SERIAL_PORT = 'COM8'
 BAUDRATE = 115200
 TIMEOUT = 5
 
